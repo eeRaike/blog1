@@ -1,0 +1,22 @@
+.cabecalhomenu{
+    display: flex;
+    background-color: palegreen;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.peri{
+    width: 200px;
+    height: 200px;
+
+}
+.textoblog{
+    display: flex;
+    justify-content: center;
+}

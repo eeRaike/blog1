@@ -1,52 +1,78 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Página principal</title>
-    </head>
-    <body>
-        <header>
 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Página principal</title>
+</head>
+
+<body>
+    <div>
+        <header class="cabecalhomenu">
+        <h2>Blog de Ra</h2>
         </header>
+    </div>
+    <nav class="menu"> 
+        <ul>
+            <li> <a href="index.html">Blog</a></li>
+            <li> <a href="about.html">Sobre</a></li>
+        </ul>
+    </nav>
+    
+    <main class="main">
+            <div class="textoblog">
+                <img src="img/peridot.jpg" alt="Literally the best character" class="peri">
 
-        <main>
-            <section>
+            </div>
+        <section>
             <header>
-                <h2>Lista de artigos</h2>
             </header>
 
             <article>
+               
                 <header>
-                    <h3>Primeiro post</h3>
-                        <time datetime="2024-07-11 10:15">
-                            11 de Julho de 2024
-                        </time>
-                           <details>
-                            <summary>Resumo</summary>
-                            <p>
-                                Conteúdo muito foda uau
-                            </p>
-                           </details> 
-                    
+                    <h3> - Primeiro post</h3>
+                    <time datetime="2024-07-11 10:15">
+                        11 de Julho de 2024
+                    </time>
+                    <details>
+                        <summary>Resumo</summary>
+                        <p>
+                            Conteúdo muito foda uau
+                        </p>
+                    </details>
+
                 </header>
                 <p>
-                    <a href="posts/firstpost.html">Vá para o artigo</a>
+                    <a href="posts/firstpost.html">- Artigo 1</a>
                 </p>
             </article>
+            <article>
+                <header>
+                    <h3>- Novo post</h3>
+                    <time datetime="2024-07-11 11:18">
+                        11 de Julho de 2024
+                    </time>
+                    <details>
+                        <summary>Resumo</summary>
+                        <p>
+                            Conteúdo muito foda DOIS
+                        </p>
+                    </details>
+                </header>
+                <p>
+                    <a href="posts/post2.html">- Artigo 2</a>
+                </p>
+
+            </article>
         </section>
-        </main>
+    </main>
 
-        <footer>
+    <footer>
+        blog23 - <a href="LICENSE">licença</a>
+    </footer>
 
-        </footer>
+</body>
 
-    </body>
 
-    <header>
-        <nav>
-            <ul>
-                <li>blog <a href="index.html">blog</a></li>
-                <li>sobre <a href="about.html">sobre</a></li>
-            </ul>
-        </nav>
-    </header>
 </html>
