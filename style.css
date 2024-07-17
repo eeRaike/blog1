@@ -46,7 +46,7 @@ p, h1, h2, h3, time, summary, footer, a, li{
 
 .posts{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
     padding-left: 100px;
