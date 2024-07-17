@@ -1,3 +1,7 @@
+body{
+    background-color: darkslategrey;
+
+}
 .cabecalhomenu{
     display: flex;
     background-color: palegreen;
@@ -9,14 +13,86 @@
 .menu{
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 .peri{
     width: 200px;
     height: 200px;
+    padding-right: 30px;
 
 }
 .textoblog{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+p, h1, h2, h3, time, summary, footer, a, li{
+    color: white;
+    text-decoration: none;
+}
+
+.imgBlogPost{
+
+    width: 150px;
+    height: 150px;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.tituloPosts{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloBlog{
+
+    color:black
+}
+
+.conteudoPost{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.imgPostHeader{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    
+}
+
+.imgPost{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    
 }
